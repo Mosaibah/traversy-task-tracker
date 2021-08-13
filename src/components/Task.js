@@ -1,6 +1,6 @@
-const Task = ({key, task, onDelete, onToggle}) => {
+const Task = ({task, onDelete, onToggle}) => {
     return (
-            <div className="card my-3 " key={key} onDoubleClick={() => onToggle(task.id)}>
+            <div className="card my-3"  onDoubleClick={() => onToggle(task.id)}>
                         <div className="card-header">
                             <h3 className="mb-1">
                                 {task.text}
