@@ -12,7 +12,7 @@ export default class Footer extends Component {
                             </div>
                             <div className="col-lg-4 mb-4 mb-lg-0">
                                 <h4 className="text-uppercase mb-4">Contact</h4>
-                                <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/Mosaibah/React-bootstrap"><i className="bi bi-github"></i></a>
+                                <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/Mosaibah/traversy-task-tracker"><i className="bi bi-github"></i></a>
                                 <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/ProAbdulrahmna"><i className="bi bi-twitter"></i></a>
                                 <a className="btn btn-outline-light btn-social mx-1" href="https://t.me/ProAbdulrahman"><i className="bi bi-telegram"></i></a>
                             </div>
