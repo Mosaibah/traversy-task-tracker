@@ -7,9 +7,7 @@ import AddTask from './AddTask'
 const Header = ({title, onAdd}) => {
     const [clicked, setClicked] = useState(true)
     const [buttonText, setButtonText] = useState('Add')
-    const onClick = (e) =>{
-        console.log(e)
-    }
+
     
     return (
         <div>
